@@ -46,9 +46,7 @@ This is a simple server implementation in C++ that allows users to log in, send 
 #### Leave Group
 - Clients can leave a group with the `/leave_group <group name>` command.
 - If the group name is empty:
-  - **"Error: Group name cannot be empty."**
-- If the client is not in the group:
-  - **"Error: You are not a member of this group."**
+  - **"Error: Unknown command"**
 - If the client successfully leaves the group:
   - **"You have left the group successfully."**
   - A notification will be sent to all group members:
